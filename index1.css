@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    margin-top:100px;
+}
+
+.header{
+   width: 40%;
+   padding-left: 50px;
+   margin-top: 60px;
+   
+}
+.header p{
+    font-size: 40px;
+    margin-top: 10px;
+}
+h1 {
+    margin-top: 30px;
+    font-size: 85px;
+    color: rgb(226, 146, 53);
+}
+
+h3 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+.header button{
+    background-color: rgb(241, 91, 91);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    margin-top: 30px;
+}
+.header h5{
+    margin-top: 100px;
+    font-size:20px ;
+}
+.img-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.pic img{
+    width: 700px;
+    height: 700px;
+    padding-left: 100% ;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.circle img{
+    width: 500px;
+    height: 500px;
+    padding-left: 100%;
+}
+.circle-border img{
+    width: 600px;
+    height: 600px;
+    padding-right: 100%;
+    color: aquamarine;
+
+}
+.card {
+    margin-top: 30px;
+   
+}
+h4{
+    margin-top: 250px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+.card-1{
+    background-color:rgb(238, 232, 235);
+    border-radius: 10px;
+    height: 700px;
+   
+}
+ .mission-pic{
+    align-items: center;
+    padding-left: 50px;
+}
+
+.card-1 h5{
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0px;
+}
+.card-1 p{
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.card-2{
+    background-color: rgb(253, 237, 218);
+    border-radius: 10px;
+    height: 700px;
+}
+.card-2 .vission-pic{
+    align-items: center;
+
+    padding-left: 35px;
+ 
+}
+.card-2 h5{
+    margin-top: 0px;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 5px;
+}
+.card-2 p{
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.card-3{
+    background-color: rgb(253, 229, 200);
+    border-radius: 10px;
+    height: 700px;
+}
+.card-3 .goals-pic{
+    align-items: center;
+
+    padding-left: 35px;
+ 
+}
+.card-3 h5{
+    margin-top: 0px;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 5px;
+}
+.card-3 p{
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.introduction{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: space-between;
+    gap: 200px;
+}
+.about-me{
+    display:flex ;
+    flex-direction: row;
+}
+ .my-pic img{
+    width: 500px;
+    height:650px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.line {
+    margin-top: 200px;
+    width: 10px;
+    height: 400px;
+    background-color: rgb(98, 98, 168);
+}
+.myself h3{
+    margin-top: 200px;
+    font-weight: 800;
+    font-size: 80px;
+    color: rgb(241, 106, 9);
+    padding-left: 10px;
+}
+.myself p{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(85, 83, 83);
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.develop{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 700px;
+    margin-top: 250px;
+}
+.pic-attach{
+    display: flex;
+    flex-direction: row;
+    gap:0;
+    width: 250px;
+    height: 250px;
+    padding-left: 25px;
+}
+.shape img{
+    width: 400px;
+    height: 400px;
+    margin-top:80px;
+    position: relative;
+    bottom: 30px;
+
+}
+.develop-pic img{
+    width: 600px;
+    height: 600px;
+    position:absolute;
+    left: 200px;
+}
+.description h6{
+    
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+.description h5{
+    font-size: 50px;
+    font-weight: 900;
+}
+.description p{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px ;
+}
+.description button{
+    padding: 20px;
+    border: 0;
+    background-color:rgb(241, 91, 91) ;
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.skills{
+    background-color:rgb(255, 134, 47);
+
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 400px;
+    margin-bottom: 0;
+    height: 1200px;
+    border-radius: 15px;
+}
+.heading h2{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 80px;
+}
+.skill{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: 100px;
+   
+}
+.skill img{
+    width: 350px;
+    height: 300px;
+    
+}
+.ability{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+   padding-right: 40px;
+   
+}
+.ability img{
+    width: 300px;
+    height: 300px;
+   padding-right: 100px;
+    padding: 20px;
+   gap: 30px;
+}
+.html5{
+   background-color: rgb(210, 218, 218);
+   border-radius: 10px;
+   
+}
+.html5 h4{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.css3{
+    background-color: rgb(197, 207, 207);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.css3 h3{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.js{
+    background-color: rgb(197, 207, 207);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.js h5{
+    margin-top: 10px;
+    font-size: 50px;
+}
+ .c-plus{
+    background-color: rgb(197, 207, 207);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+ .c-plus h6{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.java{
+    background-color: rgb(197, 207, 207);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+.java h3{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.github img{
+    width: 300px;
+   
+}
+.github{
+    background-color: rgb(197, 207, 207);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    
+}
+.github h3{
+    margin-top: 10px;
+    font-size: 50px;
+}
+footer{
+    background-color: rgb(7, 3, 43);
+    margin-top: 400px;
+    height: 300px;
+}
+.footer{
+  
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+.footer h2{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.footer h3{
+    font-size: 30px;
+    margin-top: 20px ;
+}
+.footer .address h3{
+    margin-top: 20px;
+}
+.footer address{
+    font-size: 25px;
+}
+footer hr{
+    margin-top: 50px;
+}
+footer p{
+ color: white;
+ text-align: center;
+ font-size: 30px;
+ margin-top: 10px;
+}
